@@ -1,36 +1,48 @@
 {
-  "_from": "nutanix_prism@",
-  "_id": "nutanix_prism@1.0.13",
+  "_args": [
+    [
+      "nutanix_prism@1.0.15",
+      "/Users/wade.perrigo/d2"
+    ]
+  ],
+  "_from": "nutanix_prism@1.0.15",
+  "_id": "nutanix_prism@1.0.15",
   "_inBundle": false,
-  "_integrity": "sha512-AO+9WlTjCHvcJsMgBZU4QR/BNoVW77I2OUYvbGdcI590W6JeVRl+srrswuubqQuPNSiEeddXu2WfjuJ9ewUzkg==",
+  "_integrity": "sha512-yl9t3L1ri6/NpY/sldAvQ6XIsfsjkt2ZjEXkgSNVNq3Wi9zkjoAltwc57/aSolVhuF2zcqgLY/FWCOZIDyQsLA==",
   "_location": "/nutanix_prism",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "nutanix_prism@",
+    "raw": "nutanix_prism@1.0.15",
     "name": "nutanix_prism",
     "escapedName": "nutanix_prism",
-    "rawSpec": "",
+    "rawSpec": "1.0.15",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "1.0.15"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nutanix_prism/-/nutanix_prism-1.0.13.tgz",
+  "_resolved": "https://registry.npmjs.org/nutanix_prism/-/nutanix_prism-1.0.15.tgz",
   "_shasum": "d4d534975f0c69be88ca687f41f97d2901bd206a",
-  "_spec": "nutanix_prism@",
-  "_where": "/Users/wade/hpoc",
+  "_spec": "1.0.15",
+  "_where": "/Users/wade.perrigo/d2",
   "author": {
     "name": "wade@nutanix.com"
   },
-  "bundleDependencies": false,
+  "bugs": {
+    "url": "https://github.com/wadeperrigo/nutanix_prism/issues"
+  },
   "dependencies": {
-    "request": ">=2.81.0"
+    "request-promise-native": ">=1.0.8"
   },
   "deprecated": false,
   "description": "Nutanix Prism API Client",
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/wadeperrigo/nutanix_prism#readme",
   "keywords": [
     "Nutanix",
     "Prism",
@@ -42,8 +54,12 @@
   "license": "ISC",
   "main": "index.js",
   "name": "nutanix_prism",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wadeperrigo/nutanix_prism.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.13"
+  "version": "1.0.15"
 }

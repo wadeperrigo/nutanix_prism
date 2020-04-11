@@ -8,10 +8,10 @@ This module is written simply to consume Prism API.  It should be noted it's far
 
 # THEN CONSUME BY CREATING AN OPTIONS OBJECT IE:
 
->     var opts = {
+>     let opts = {
 >         creds: {
->             username:'prismUsername',
->             password:'prismPassword'
+>             user:'prismUsername',
+>             pass:'prismPassword'
 >         }
 >         ip: 'prismIP',
 >         itemX: 'whateverElse'
@@ -32,7 +32,7 @@ This module is written simply to consume Prism API.  It should be noted it's far
 ### Currently Supported Commands/Options
 
 **NOTE:** All opts require opts.ip, and opts.creds that include username & password
-
+**NOTE:** NOT ALL COMMANDS THAT ARE AVAILABLE ARE CURRENTLY DOCUMENTED.  I STRONGLY RECOMMEND USING A PROGRAM LIKE VSCODE THAT WILL SUGGEST (ALL METHODS ARE DOCUMENTED BEFORE THE FUNCTION).  ALTERNATIVELY YOU CAN BROWSE THE /lib DIRECTORY AND SEE WHAT METHODS ARE AVAILABLE.  HOPEFULLY THIS DOCUMENTATION WILL BE UPDATED SHORTLY.
 
 ----------
 
