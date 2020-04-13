@@ -18,7 +18,7 @@ module.exports = {
     managementServers: require('./lib/cluster.js').management_servers,
     marketplace: require('./lib/marketplace.js'),
     networks: require('./lib/networks.js'),
-    pc = this.ssp,
+    pc: this.ssp,
     prismCentral: require('./lib/prismCentral.js'),
     project: require('./lib/project.js'),
     protectionDomain: require('./lib/protectionDomain.js'),
