@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "nutanix_prism@1.0.18",
+      "nutanix_prism@1.0.19",
       "/Users/wade.perrigo/d2"
     ]
   ],
-  "_from": "nutanix_prism@^1.0.18",
-  "_id": "nutanix_prism@1.0.18",
+  "_from": "nutanix_prism@^1.0.19",
+  "_id": "nutanix_prism@1.0.19",
   "_inBundle": false,
   "_integrity": "sha512-LYs0p7w3MnxL45momgOonXz756V7XztivoBEeM4vp9SzCzA1qM3zy0QVG0TqTCS/3LFQ/de7+DcpErvVRgpsxA==",
   "_location": "/nutanix_prism",
@@ -14,20 +14,20 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "nutanix_prism@^1.0.18",
+    "raw": "nutanix_prism@^1.0.19",
     "name": "nutanix_prism",
     "escapedName": "nutanix_prism",
-    "rawSpec": "^1.0.18",
+    "rawSpec": "^1.0.19",
     "saveSpec": null,
-    "fetchSpec": "^1.0.18"
+    "fetchSpec": "^1.0.19"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nutanix_prism/-/nutanix_prism-1.0.18.tgz",
+  "_resolved": "https://registry.npmjs.org/nutanix_prism/-/nutanix_prism-1.0.19.tgz",
   "_shasum": "5e376c344b54449ba8be64725cc612767682f466",
-  "_spec": "nutanix_prism@^1.0.18",
+  "_spec": "nutanix_prism@^1.0.19",
   "_where": "/Users/wade.perrigo/d2",
   "author": {
     "name": "wade@nutanix.com"
@@ -63,5 +63,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.18"
+  "version": "1.0.19"
 }
